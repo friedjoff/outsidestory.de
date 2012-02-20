@@ -1,0 +1,59 @@
+body {
+    font-family: "Palatino Linotype", Palatino, "Book Antigua", Georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #222;
+    background-color: #f7f7f7;
+    padding-top: 50px;
+}
+
+article, footer {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin-bottom:0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+a {
+    color: #f30;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    color: #f70;
+}
+
+p.zusammenfassung {
+    margin: 0;
+    font-size: 18px;
+    font-style: italic;
+}
+ul.berichte {
+    font-size: 1.6em;
+    margin: 0;
+}
+ul.berichte li {
+    margin: 18px 0;
+}

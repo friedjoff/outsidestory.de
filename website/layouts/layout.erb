@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>outsidestory.de | <%= data.page.titel || "Geschichten von draußen ..." %></title>
+	<script src="/script.js" type="text/javascript"></script>
+	<link href="/style.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+	  
+	  
+	<article>
+	<h1><%= data.page.titel %></h1>
+	
+	<% if data.page.autor and data.page.datum %>
+	<p>geschrieben von <%= data.page.autor %> am <%= Date.parse(data.page.datum).strftime("%d. %B %Y") %></p>
+	<% end %>
+	
+	<p class="zusammenfassung"><%= data.page.zusammenfassung %></p>
+	
+  <ul class="berichte">
+  <% for page in current_page.children.sort! { |a,b| b.data.datum <=> a.data.datum } %>
+  <% if page.data.titel != 'Crew' %>
+  	<li>
+  		<%= link_to page.data.titel, '/' + page.path.sub('index.html', '') %>
+  		<p class="zusammenfassung"><%= page.data.zusammenfassung %></p>
+  	</li>
+  <% end %>
+  <% end %>
+  </ul>
+	
+	
+    <%= yield %>
+
+<% if data.page.fotos %>
+    <h2 id="fotos">Fotos</h2>
+	<% for foto in data.page.fotos %>
+	<a href="fotos/max/<%= foto[0] %>.jpg" id="fotos/<%= foto[0] %>" rel="lightbox-fotos" title="<%= foto[1] %>">
+		<img src="fotos/min/<%= foto[0] %>.jpg">
+	</a>
+	<% end %>
+<% end %>
+asdf
+<% if data.page.film %>
+    <h2 id="film">Film</h2>
+	<video id="asdf" class="video-js vjs-default-skin" controls
+	  preload="auto" width="640" height="480" poster="my_video_poster.png"
+	  data-setup="{}">
+	  <source src="film.mp4" type='video/mp4'>
+	  <source src="film.webm" type='video/webm'>
+	</video>
+<% end %>
+
+
+	</article>
+
+<footer>
+	<ul>
+		<li><a href="/">Startseite</a></li>
+		<li><a href="/crew">Crew</a> - über uns</li>
+		<li><a href="http://twitter.com/outsidestory">Twitter</a> - folge uns</li>
+		<li><a href="http://flattr.com/thing/393696/outsidestory-de-Geschichten-von-draussen">Flattr</a> - unterstütze uns</li>
+		<li><a href="http://creativecommons.org/licenses/by/3.0/de/">CC-by Lizenz</a></li>
+	</ul>
+</footer>
+  </body>
+</html>
