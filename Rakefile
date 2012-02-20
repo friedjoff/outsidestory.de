@@ -29,6 +29,10 @@ task :build do
   #rm_r 'tmp'
 end
 
+task :sync do
+  sh %{rsync -avz --delete --exclude '.DS_Store' build/ outsidestory.de:html/}
+end
+
 task :assets do
   require 'yui/compressor'
   # TODO: add exclude variable for debugging
