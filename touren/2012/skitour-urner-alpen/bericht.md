@@ -13,4 +13,4 @@ Es folgt auf der eingeschneiten Passstraße der Gegenanstieg zum Furkapass. Auf 
 Nach einem phantastischen Frühstück ziehen wir bei schönstem Wetter mit einer kurzen Zwischenabfahrt unsere Spur zur Winterlücke (2854m) empor. Der steile Gipfelanstieg zu Fuß zum Lochberg (3074m) lässt unsere Bergsteigerherzen höher schlagen, bevor uns die phänomenale Aussicht auf einen großen Teil der Urner Runde erwartet. 
 Als Krönung der Tour wedeln wir nun 1200 Höhenmeter unberührte Hänge zum Göscheneralpsee hinab, erklimmen die Staumauer und bewältigen die Fahrstraße. Während pünktlich zum Abschluss eine Schlechtwetterfront das Tal hinaufzieht erreichen wir glücklich Göschenen – Anfang und Ende unsere Tour. 
 
-Siehe auch Link Bericht DAV ... und beachte die Empfehlung „beste Zeit März bis Mitte Mai“
+Weitere Informationen liefert der Artikel [Skitouren in den Urner Alpen]( http://www.alpenverein.de/chameleon/outbox/public/10150/unt1_16970.pdf) aus dem DAV-Magazin Panorama Ausagbe 6 2010.
