@@ -3,34 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>outsidestory.de | <%= data.page.titel || "Geschichten von draußen ..." %></title>
-	  <script src="/script.js" type="text/javascript"></script>
+    <script src="http://piwik.outsidestory.de/piwik.js" type="text/javascript"></script>
+    <script src="/script.js" type="text/javascript"></script>
 	  <link href="/style.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>  
-    <article>
+    <div class="content">
 	    <h1><%= data.page.titel %></h1>
 <% if data.page.autor and data.page.datum %>
-	    <p>geschrieben von <%= data.page.autor %> am <%= Date.parse(data.page.datum).strftime("%d. %B %Y") %></p>
+	    <p class="autor-datum">geschrieben von <%= data.page.autor %> am <%= Date.parse(data.page.datum).strftime("%d.%m.%Y") %></p>
 <% end %>
 	    <p class="zusammenfassung"><%= data.page.zusammenfassung %></p>
-      <ul class="berichte">
+      <div class="touren">
 <% for page in current_page.children.sort! { |a,b| b.data.datum <=> a.data.datum } %>
 <% if page.data.titel != 'Crew' %>
-  	  <li>
-        <%= link_to page.data.titel, '/' + page.path.sub('index.html', '') %>
+    <a href="/<%= page.path.sub('index.html', '') %>">
+  	  <div class="tour tour-<%= page.path.sub('/index.html', '') %>">
+        <h2><%= page.data.titel %></h2>
   		  <p class="zusammenfassung"><%= page.data.zusammenfassung %></p>
-  	  </li>
+  	  </div>
+    </a>
 <% end %>
 <% end %>
-    </ul>
+    </div>
+<% if yield != "<hr>\n" %>
 <%= yield %>
+<% end %>
 <% if data.page.fotos %>
+
     <h2 id="fotos">Fotos</h2>
+    <div id="galleria">
 <% for foto in data.page.fotos %>
-	  <a href="fotos/max/<%= foto[0] %>.jpg" id="fotos/<%= foto[0] %>" rel="lightbox-fotos" title="<%= foto[1] %>">
-		  <img src="fotos/min/<%= foto[0] %>.jpg">
+	  <a href="fotos/max/<%= "%02d" % foto[0] %>.jpg">
+		  <img src="fotos/min/<%= "%02d" % foto[0] %>.jpg" alt="<%= foto[1][1] %>" title="<%= foto[1][0] %>">
 	  </a>
 <% end %>
+</div>
 <% end %>
 <% if data.page.film %>
     <h2 id="film">Film</h2>
@@ -49,5 +57,10 @@
 		    <li><a href="http://creativecommons.org/licenses/by/3.0/de/">CC-by Lizenz</a></li>
       </ul>
     </footer>
+    <script>
+<% if data.page.fotos %>
+  $('#galleria').galleria();
+<% end %>
+    </script>
   </body>
 </html>

@@ -1,3 +1,7 @@
+* {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
 body {
     font-family: "Palatino Linotype", Palatino, "Book Antigua", Georgia, serif;
     font-size: 18px;
@@ -7,8 +11,8 @@ body {
     padding-top: 50px;
 }
 
-article, footer {
-    width: 600px;
+div.content, footer {
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -31,6 +35,7 @@ h3 {
 a {
     color: #f30;
     text-decoration: none;
+    text-shadow: 0px 0px 5px white;
 }
 
 ul {
@@ -44,11 +49,18 @@ li {
 a:hover {
     color: #f70;
 }
-
+p.autor-datum {
+    margin: 5px 0 10px;
+    font-style: italic;
+}
 p.zusammenfassung {
     margin: 0;
+    font-weight: bold;
+}
+div.tour p.zusammenfassung {
     font-size: 18px;
-    font-style: italic;
+    text-shadow: 0px 0px 5px black;
+    color: #fff;
 }
 ul.berichte {
     font-size: 1.6em;
@@ -57,3 +69,13 @@ ul.berichte {
 ul.berichte li {
     margin: 18px 0;
 }
+
+
+div.tour {
+    height: 480px;
+    margin: 80px 0;
+    padding: 40px 80px;
+    background-color: #999;
+}
+
+#galleria{height:790px; width: 980px; margin-left: -10px;}
