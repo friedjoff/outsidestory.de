@@ -3,11 +3,11 @@
 **23 Uhr:** Wir essen Pasta mit leckerer Bolognese.  
 **24 Uhr:** Noch mehr Pasta mit leckerer Bolognese.  
 **1 Uhr:** Friedjoff und Richard fahren los Richtung Sustenpass.  
-**2 Uhr:** Über leere Straßen geht's wir durch die Schweiz.  
-**3 Uhr:** Wir kommen beim Hotel Steigletscher an und machen uns fertig für's Bett.  
+**2 Uhr:** Über leere Straßen geht's durch die Schweiz.  
+**3 Uhr:** Wir kommen beim Hotel Steingletscher an und machen uns fertig für's Bett.  
 **4 Uhr:** Power-Napping im VW-Bus.  
 **5 Uhr:** Die ersten Tourengeher machen sich bemerkbar.  
-**6 Uhr:** Bei dichtem Nebel folgen wir der Spur auf den Steingletscher.  
+**6 Uhr:** Bei dichtem Nebel folgen wir der Spur auf den Steigletscher.  
 **7 Uhr:** Langsam lassen wir die Nebeldecke hinter uns.  
 **8 Uhr:** Kurze Trink- und Apfel-Pause. Weiter geht's.  
 **9 Uhr:** Nach einem [erfolglosen Versuch](/2012-skitour-urner-alpen/) im Januar stehen wir endlich auf dem Sustenhorn.  
@@ -22,4 +22,4 @@
 **18 Uhr:** Wohl oder übel machen wir uns auf die Rückfahrt.  
 **19 Uhr:** Über volle Straßen fahren wir durch die Schweiz.   
 **20 Uhr:** Ankunft in Basel bei Marius.  
-**21 Uhr:** Friedjoff kommt totmüde in Freiburg an.  
+**21 Uhr:** Friedjoff kommt todmüde in Freiburg an.  
