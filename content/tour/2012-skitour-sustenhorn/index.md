@@ -1,3 +1,11 @@
++++
+author = "Friedjoff"
+date = "2012-05-13"
+title = "Skitour Sustenhorn"
+description = "Kurz, aber oho: Vom Steigletscher am Sustenpass starten wir zur Ski-Besteigung des Sustenhorns (3503 m) und des Gwächtenhorns (3420 m). Nachmittags in der Nähe von Meiringen chillen und klettern wir noch ein wenig in der Sonne."
+categories = [ "Skitour" ]
++++
+
 **21 Uhr:** Friedjoff fährt munter in Freiburg los.  
 **22 Uhr:** Ankunft in Basel bei Marius und Richard.  
 **23 Uhr:** Wir essen Pasta mit leckerer Bolognese.  
