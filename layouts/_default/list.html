@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+{{ range .Data.Pages }}
+{{ $path := trim .RelPermalink "/" }}
+{{ $photos := index .Site.Data (replace (delimit (slice "photos" $path) "_") "-" "_") }}
+<article>
+  <img src="{{ $path }}/teaser.jpg" class="teaser" />
+  <h1><a href="{{ $path }}">{{ .LinkTitle }}</a></h1>
+  <p class="tagline">{{ .Description }}</p>
+  <div class="list-links">
+    {{ if .Content }}
+    <a class="list-link-item read" href="{{ $path }}/#bericht">
+      <div class="list-link-title">Bericht</div>
+      <div class="list-link-subtitle">{{ .ReadingTime }} Minuten</div>
+    </a>
+    {{ end }}
+
+    {{ if $photos }}
+    <a class="list-link-item photo" href="{{ $path }}/#fotos">
+      <div class="list-link-title">Fotos</div>
+      <div class="list-link-subtitle">{{ len $photos }} Stück</div>
+    </a>
+    {{ end }}
+  </div>
+</article>
+{{ end }}
+{{ partial "footer.html" . }}

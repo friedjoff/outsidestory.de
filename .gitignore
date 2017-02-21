@@ -3,7 +3,6 @@
 *.mpg
 *.jpg
 
-/build
-/tmp
-
-website/stylesheets/touren.css
+node_modules
+/data/photos_*.json
+/public

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{ .Hugo.Generator }}
+    <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#dd0000">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}style.css">
+    {{ if .Site.Params.enableRSS }}
+    <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ end }}
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 35.2 40.54" enable-background="new 0 0 35.2 40.54" xml:space="preserve"><path d="M0.3374,24.8379c0.957-4.625,4.4863-8.3906,4.7851-13.0117c1.3379,2.4336,1.4961,4.1875,1.6465,6.7304  C11.021,13.3477,15.4311,6.375,14.4761,0c0,0,8.0625,2.5332,11.3222,14.8984c1.9278-1.7148,1.7461-5.246,0.793-7.332  c2.8613,2.086,19.289,20.6016-2.5801,32.9746c4.1113-8.0058,1.0606-18.8066-6.0781-23.7969  c0.4765,2.1446-0.1192,7.7461-3.2774,11.2618c0.7149-3.6348-1.0722-5.959-1.0722-5.959s-0.586,3.291-2.8614,6.6152  C8.646,31.6973,7.2085,34.9199,9.9096,40.541C1.3081,35.6953-0.9556,31.1074,0.3374,24.8379z"/></svg>
+      </a>
+      <div class="logo">Outsidestory</div>
+      <div class="tagline">Geschichten von draußen …</div>
+    </header>

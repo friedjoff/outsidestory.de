@@ -1,0 +1,111 @@
+
+
+@font-face {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cormorant'),
+       url('/fonts/Cormorant-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proza Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proza Libre'),
+       url('/fonts/ProzaLibre-Regular.woff') format('woff');
+}
+
+body {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  color: #333;
+  font-family: 'Proza Libre';
+  background-color: #EEE;
+}
+
+a {
+  color: #D00;
+  text-decoration: none;
+}
+
+article {
+  background: #FFF;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+header,
+section {
+  margin: 40px;
+}
+
+h1,
+.tagline {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.logo,
+h1, h2, h3, h4 {
+  font-family: 'Cormorant';
+}
+
+h1 {    
+  font-size: 3em;
+  line-height: 1em;
+  text-align: center;
+}
+
+svg {
+  fill: #D00;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo,
+.tagline {
+  text-align: center;
+}
+
+.logo {
+  margin: 20px 0;
+  font-size: 3em;
+}
+
+.teaser {
+  width: 100%;
+}
+
+.list-links {
+  text-align: center;
+}
+.list-link-item {
+  background: transparent 10px 5px no-repeat;
+  display: inline-block;
+  padding: 5px 15px 15px 65px;
+  margin: 20px;
+}
+.list-link-item:hover {
+  color: #D00;
+}
+.list-link-item.read {
+  background-image: url('/images/read.svg');
+}
+.list-link-item.photo {
+  background-image: url('/images/photo.svg');
+}
+.list-link-title {
+  font-weight: bold;
+}
+.list-link-subtitle {
+  font-size: 0.8em;
+  line-height: 0.6em;
+}
+
+.photos {
+  background-color: black;
+  position: relative;
+  height: 688px;
+}
