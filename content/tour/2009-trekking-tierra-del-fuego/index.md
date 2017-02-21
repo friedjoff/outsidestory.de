@@ -1,5 +1,6 @@
-titel: 'Besteigung des Ojos del Salado'
-zusammenfassung: 'Besteigung des höchsten Vulkans der Erde ...'
-film: 'asdf'
-autor: 'Richard'
-datum: '2009-04-26'
++++
+title = "Trekking Tierra del Fuego"
+description = "Coming soon ..."
+date = "2009-04-30"
+draft = true
++++

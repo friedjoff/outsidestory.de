@@ -1,3 +1,6 @@
-titel: 'Los Lagos'
-zusammenfassung: 'Besteigung des höchsten Vulkans der Erde ...'
-datum: '2009-04-26'
++++
+title = "Los Lagos"
+description = "Coming soon ..."
+date = "2009-04-28"
+draft = true
++++

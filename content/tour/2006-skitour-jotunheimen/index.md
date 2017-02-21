@@ -1,3 +1,10 @@
++++
+title = "Skitour Jotunheimen"
+description = "Neun Tage lang durchwanderten wir in den Wintersemesterferien 2006 mit Tourenskiern das höchste Gebirge Skandinaviens. Von kalten Nächten und traumhaften Abfahrten..."
+author = "Mathis"
+date = "2006-04-28"
++++
+
 Obwohl schon sehr lange fest stand, dass es diese Tour geben würde, blieben ihr Ziel und ihre "Mannschaft" lange im Ungewissen. Sarek Nationalpark in Lappland? Zu kalt Ende Februar! Alpen, z.B. Silvretta? Hatten wir schon. Wandern in Deutschland? Langweilig! Zuhause bleiben und an Uni-Seminaren teilnehmen, Füße kurieren und dergleichen? Unmöglich!
 
 So bestellten wir auf den letzten Drücker - wie so vieles auf dieser Tour - Wanderkarten vom Jotunheimen. Der Name bedeutet wörtlich übersetzt "Heim der Riesen" und wird dem 250 Gipfel über 1900 Meter umfassenden Gebirge durchaus gerecht. Wir, das sind Hörbe, Friedjoff und ich, packten das Auto, besorgten noch schnell ein Fährticket und fuhren los - und bemerkten was wir alles vergessen hatten. Doch zum Glück lag Hamburg mit einem Globetrotter auf dem Weg und so erreichten wir auf den letzten Drücker aber pünktlich die Fähre und schließlich auch BeitostÃ¸len, ein Wintersportort südlich des Jotuheim. Weil die Straße ab hier im Winter gesperrt ist und wir nicht weiter mit dem Auto in das Gebirge "vordringen" konnten, verlegten wir das Tourengebiet kurzer Hand etwas in den südlichen Rand des Nationalparks, informierten die Touristeninformation über unsere Tour, ließen uns über Lawinenverhältnisse informieren und trafen die letzten Vorbereitungen.

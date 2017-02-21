@@ -1,3 +1,10 @@
++++
+author = "Richard"
+date = "2006-12-31"
+title = "Skitour und Eisklettern im Engadin"
+description = "Wie schon im letzten Jahr, ging es zwischen Weihnachten und Neujahr in die Schweiz, diesmal ins Unterengadin. Obwohl wir nur eine Woche und wenig Schnee hatten, sind ein paar tolle Touren zustande gekommen …"
++++
+
 ### Skitour im Val S´charl
 
 Nachdem wir uns zwei Tage im Skigebiet an die Höhenluft gewöhnt hatten, ging es von unserer Hütte mit Tourenski ins Val S´charl. Auf Südhängen war der Schnee schon größtenteils getaut und auch auf unserer Route zeigte sich öfter der Boden. Nach rund 12km und 900 Höhenmetern machten wir auf der Alp Tavrü bei einer Sennhütte Mittagspause. Anschließend rutschten wir weitgehend auf Fahrwegen zurück zu unserer Hütte. Bei mehr Schnee ein lohnendes Skitourengebiet. Außerdem gibt es ein paar Kilometer vor Minger westlich der Straße im Tal eine Brücke zu einem Stollen, unterhalb der ein beachtlicher Wasserfall vereist auf seine Bekletterer wartet.

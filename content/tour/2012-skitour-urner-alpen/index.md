@@ -1,3 +1,10 @@
++++
+title = "Skitour Urner Alpen"
+description = "Die anspruchsvolle Durchquerung der abgelegenen Urner Alpen im Hochwinter – Eindrücke von einer abwechslungsreichen Skitour in einsamem Gelände."
+date = "2012-02-27"
+autor = "Richard"
++++
+
 Das Wetterchaos Anfang 2012 bescherte den Alpen Rekordschneehöhen. Als sich in der Schweiz die Lawinenlage bei 2 („mäßig“) eingependelt hat und das Wetter als halbwegs gut angekündigt ist, machen sich Christine, Friedjoff und Richard Ende Januar auf den Weg nach Göschenen am Gotthard.
 
 Wir kommen am späten Nachmittag an. Da es von hier mit dem Auto nicht mehr weitergeht, schnallen wir auf etwa 1100m die Ski an und machen uns auf den Weg. Bald beginnt es zu schneien und als wir die Staumauer des Göscheneralpsees erreichen, ist es schon lange dunkel. Die Ränder sind nicht abgesenkt, seine Eisdecke liegt eben vor uns und macht einen zuverlässigen Eindruck. So entscheiden wir uns für den kurzen Weg über den See. Wir wollen den heiklen Anstieg zu Chelenalphütte ungern im Schneetreiben bei Nacht angehen, so entscheiden wir uns auf knapp 2000m im urigen Heuboden von Vorder Röti zu nächtigen. 

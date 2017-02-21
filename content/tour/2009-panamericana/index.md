@@ -1,5 +1,6 @@
-titel: 'Besteigung des Ojos del Salado'
-zusammenfassung: 'Besteigung des höchsten Vulkans der Erde ...'
-film: 'asdf'
-autor: 'Richard'
-datum: '2009-04-26'
++++
+title = "Panamericana"
+description = "Trampend ziehen wir aus der trockenen Atacama-Wüste auf dem Panamericana-Highwigh in das regnerische Patagonien."
+date = "2009-04-27"
+draft = true
++++

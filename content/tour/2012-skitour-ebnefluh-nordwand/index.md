@@ -1,5 +1,6 @@
-titel: 'Skitour Ebnefluh Nordwand'
-zusammenfassung: 'In drei Tagen ging es von Stechelberg durch die Nordwand der Ebnefluh und um das Lauterbrunner Breithorn durch die Wetterlücke zurück.'
-datum: '2012-03-27'
-autor: 'Friedjoff'
-teaser: 'fotos/06.jpg'
++++
+title = "Skitour Ebnefluh Nordwand"
+description = "In drei Tagen ging es von Stechelberg durch die Nordwand der Ebnefluh und um das Lauterbrunner Breithorn durch die Wetterlücke zurück."
+date = "2012-03-27"
+author = "Friedjoff"
++++

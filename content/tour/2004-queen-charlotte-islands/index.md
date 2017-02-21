@@ -1,4 +1,10 @@
-### 31. Fahrtentag, Freitag der 10. September 2004
++++
+date = "2004-10-04"
+title = "Queen Charlotte Islands"
+description = "Nachdem wir unsere verfrorenen Körper in heißen Schwefelquellen wieder erstarkt und erwärmt hatten, wandten wir uns gen Süden und verbrachten die letzte Woche auf den Queen Charlotte Islands, einer Inselgruppe im Pazifik, die nicht zu unrecht den Namen “Kanadische Galapagosinseln” trägt. 110 Kilometer wanderten wir an einem einsamen Strand entlang, erlebten überwältigende Sonnenaufgänge von atemberaubenden Klippen, sahen Orkas, Robben und Weißkopfseeadler, fingen Lachse, badeten im frischen Pazifik und trotzten schlechtem Trinkwasser, Regen und Sturm."
++++
+
+## 31. Fahrtentag, Freitag der 10. September 2004
 
 von Richie und Wulf
 
@@ -9,7 +15,7 @@ Heute war eigentlich gutes Wetter und während der circa 400 Kilometer durch die
 Wulf
 
 
-### 31. Fahrtentag, Samstag der 10. September 2004
+## 31. Fahrtentag, Samstag der 10. September 2004
 
 von Mischa
 
@@ -21,7 +27,7 @@ Als ich am Nächsten Morgen aufwache, ist es am Nieseln und ein kurzes Stück en
 Mischa
 
 
-### 31. Fahrtentag, Freitag der 10. September 2004
+## 31. Fahrtentag, Freitag der 10. September 2004
 
 von Hörbe und Spüli
 
@@ -35,7 +41,7 @@ Bald darauf haben wir auch das Zelt zusammengebastelt und uns schlafen gelegt.
 Spüli
 
 
-### 32. Fahrtentag, Samstag der 11. September 2004
+## 32. Fahrtentag, Samstag der 11. September 2004
 
 von Mischa, Richie und Wulf
 
@@ -46,7 +52,7 @@ Hier haben wir das Zelt aufgebaut und essen Nudeln mit Soße und Rührei, währe
 Richie
 
 
-### 32. Fahrtentag, Samstag der 11. September
+## 32. Fahrtentag, Samstag der 11. September
 
 von Hörbe und Spüli
 
@@ -60,7 +66,7 @@ Bevor wir uns für´s Pennen bereit machten, fuhr noch die letzte Mitfahrgelegen
 Spüli
 
 
-### 33. Fahrtentag, Sonntag der 12. September 2004
+## 33. Fahrtentag, Sonntag der 12. September 2004
 
 von Mischa, Richie und Wulf
 
@@ -71,7 +77,7 @@ Wie es sich für eine Stadt, die sich auch „Rainbow City“ nennt gehört, hat
 Mischa
 
 
-### 33. Fahrtentag, Sonntag der 12. September 2004
+## 33. Fahrtentag, Sonntag der 12. September 2004
 
 von Hörbe und Spüli
 
@@ -81,7 +87,7 @@ Nun fuhr er uns bis nach Kitwanga (ziemlich weit). Um 23 Uhr kamen wir da an und
 Hörbe
 
 
-### 34. Fahrtentag, Montag der 13. September 2004
+## 34. Fahrtentag, Montag der 13. September 2004
 
 von Mischa, Richie und Wulf
 
@@ -93,7 +99,7 @@ Sie ist zwar gerade erst eingezogen, aber wir können in ihrer zukünftigen Töp
 Richie 
 
 
-### 34. Fahrtentag, Montag der 13. September 2004
+## 34. Fahrtentag, Montag der 13. September 2004
 
 von Hörbe und Spüli
 
@@ -102,7 +108,7 @@ Als wir uns morgens an die Straße stellten, dachten wir, nun dauere es nicht me
 Hörbe
 
 
-### 35. Fahrtentag, Dienstag der 14. September 2004
+## 35. Fahrtentag, Dienstag der 14. September 2004
 
 Das Trampen verlief heute ohne große Komplikationen, so dass wir kurz vor  12 Uhr in Prince Rupert ankamen, wo wir uns natürlich als erstes vier Liter Vanilleeis reinzogen. Kurz bevor wir schlapp machten, kamen die anderen vorbei und halfen uns. Sie hatten vorher den Hund Ikea von Jeane bei den Buzee ???? Rapids ausgeführt. Bevor wir zu Jeane gingen, besorgten wir eine zweite Ladung Eis und Mischa und ich besuchten die Bücherei zum Internetsurfen.
 Im Haus hatten Richie, Hörbe und Wulf angefangen, das Wohnzimmer bzw. die zukünftige Werkstatt zu streichen.
@@ -113,7 +119,7 @@ Nachdem wir noch ein bisschen gesungen hatten, begaben wir uns bald ins Zelt ode
 Spüli
 
 
-### 36. Fahrtentag, Mittwoch der 14. September 2004
+## 36. Fahrtentag, Mittwoch der 14. September 2004
 
 Zum Frühstück gab es heute Reibekartoffelpuffer, die nicht schlecht (z.B. mit Zwiebeln), allerdings „etwas“ zu wenig waren. Wir aßen noch Brot und gingen dann in die City ins „Museum of Northern British Columbia“. Hier gab es viele Ausstellungsstücke und Informationen über die Indianer. Zum Beispiel Holzmasken, Kleidung und Werkzeuge, aber auch ein paar über das Siedeln und Techniken der europäischen Einwanderer.
 Nach dem Museumsbesuch gingen Spüli und Hörbe einen leckeren Lunch besorgen. Richie ging sein Messer suchen (war dann doch bei Jeane) und irgendeine Beruhigungs-E-Mail an die Eltern schreiben. Mischa und ich suchten im Museumsshop und einem Bücherladen nach einem Buch mit tollen indianischen Zeichnungen. Nach dem Mittagessen bestehend aus Baguette, Weißbrot, Paprika, Tomaten, Gurke, Schinken, Salat, Dressing, Ketchup usw., ging Mischa noch mal zur Library und seinem Internet. Wir anderen gingen einen Berg zu erspazieren. Dazu nahmen wir auch Ikea mit. Auf dem Bergspaziergang sahen wir zwei oder zweimal ein Stachelschwein(e). Wieder zurück, gab es Salmon mit Reis und Gemüse. Danach schrieben wir noch ein paar Karten an Thomas, Koko und den GFK. Dann gingen wir schlafen.
@@ -121,7 +127,7 @@ Nach dem Museumsbesuch gingen Spüli und Hörbe einen leckeren Lunch besorgen. R
 Wulf
 
 
-### 37. Fahrtentag, Donnerstag der 16. September 2004
+## 37. Fahrtentag, Donnerstag der 16. September 2004
 
 Heute sollte es auf die Islands gehen. Der Wecker wurde falsch gestellt und wir verschliefen. Wir beeilten uns und quetschten uns in Jeanes Auto (Ford Fiesta) und fuhren zum Hafen. Hier erfuhren wir, dass die Fähre erst später fahren wird. Wir kochten Porridge und aßen. 
 Während der Überfahrt schauten wir uns die Inseln im Pazifik an, sahen ein paar Wale, sowie „Hidalgo“ und „Hörbe“ (= „Herbie“, der VW-Käfer) aßen davor noch wieder Porridge oder schliefen. Auf der anderen Seite, also in Skidegit ??????? auf den Queen Charlotte Islands, war schlechtes Wetter und wir mussten uns mal wieder trennen zum Trampen. Mischa und ich kamen noch an diesem Abend zum dreißig Kilometer entfernten Campingplatz von Tlell und schlafen hier, ohne die anderen getroffen zu haben.
@@ -129,14 +135,14 @@ Während der Überfahrt schauten wir uns die Inseln im Pazifik an, sahen ein paa
 Hörbe 
 
 
-### 38. Fahrtentag, Freitag der 17. September 2004
+## 38. Fahrtentag, Freitag der 17. September 2004
 
 Am Morgen hatte der heftige Regen nachgelassen und schließlich ganz aufgehört. Als ich mir gerade eine Info-Tafel angeschaut habe, kam Spüli vorbei gelaufen, der wenige Meter entfernt unter einem Unterstand geschlafen hatte. Zusammen gingen er, Hörbe und ich zum Trailhead des circa 110 Kilometer langen, nach Norden führenden East Beach Walks ?????, das wir nach einiger Zeit hinterm Tlell River fanden. 
 Auf dem Kocher machten wir uns zwei Runden Porridge, bis um 12 Uhr die andern beiden vorbei kamen. Obwohl sie als erstes von Skidagit losgekommen waren, hatten sie en nicht mehr bis Tlell geschafft und mussten am Morgen, nachdem sie in einer Bushaltestelle gepennt hatten, noch das größte Stück trampen. Bei trockenem Wetter ging es dann am Fluss entlang zum Meer. Nach einiger Zeit kamen wir zu den Überresten der 1929 gestrandeten „Persuta“. Dort haben alle außer Wulf, der jetzt fasten will, mittaggegessen. Am Nachmittag sind wir weiter bis zum Mayer River gelaufen. Während wir auf die Ebbe warteten, die uns das Überqueren desselbigen gestattet hätte, hat Richie die Angel ausgeworfen und später haben er und ich im Landesinneren eine natürliche Brücke in Form eines toten Baumriesen. Von hier waren es noch einige Kilometer am Strand entlang, bis wir gegen Abend das „Cape Bell Shelter“ erreicht haben. Dort haben wir bis spät in die Nacht Kartoffeln gebraten und Tee getrunken.
 
 Mischa
 
-### 39. Fahrtentag, Samstag der 18. September 2004
+## 39. Fahrtentag, Samstag der 18. September 2004
 
 Um 5: 39 Uhr drückte der Tee bei Mischa so sehr und mein Durst war so stark, dass wir beide beschlossen hatten aufzustehen; was wir dann auch parallel durchzogen. Nach dem Erledigen unser Bedürfnisse, machten wir Feuer und kochten Tee und anschließend Porridge, während es langsam hell wurde und die anderen teils widerstrebend aufstanden. Es nieselte leicht, aber trotzdem konnte wir bald den Sonnenaufgang bewundern.
 Um 7: 53 Uhr liefen wir los. Das Gewässer, das wir bald überquerten und aus dem Mischa und ich gestern Wasser geholt hatten, hielten wir fälschlicherweise für den Cape Bell River, wurden dann aber von einer Kanadierin aufgeklärt, auf deren Grund und Boden wir uns befanden. Wir mussten wieder über den Bach und dann direkt am Meer (zum Glück war gerade low tide) den wirklichen Fluss furten. Mittlerweile hatten wir sonnige 21 Grad!
@@ -146,7 +152,7 @@ Mittag aßen wir und Wulf nicht irgendwo am White Cliff. Um 14 Uhr hatten wir da
 Richie
 
 
-### 40. Fahrtentag, Sonntag der 19 September 2004
+## 40. Fahrtentag, Sonntag der 19 September 2004
 
 Wir wachten bei leicht rötlichem Horizont auf. Die Sonne kam langsam zum Vorschein und flutete allmählich die Sandklippen. Bald hatten wir alles gepackt und Porridge mit Sirup gekocht, der nicht sonderlich „tasty“ war. Hörbe hatte draußen geschlafen, um die volle Portion von Sonnenaufgang und Panoramablick zu konsumieren.
 Bei dem guten Wetter war es nicht verwunderlich, dass die Pausen etwas länger wurden, da man ja schließlich die Sonne genießen musste.
@@ -157,7 +163,7 @@ Bevor wir schlafen gingen, furteten wir um 23 Uhr bei Ebbe noch den Fluss und ba
 Spüli
 
 
-### 41. Fahrtentag, Montag der 20. September 2004
+## 41. Fahrtentag, Montag der 20. September 2004
 
 Als wir gerade so richtig schön am Aufstehen waren, - die Flut hatte uns nicht weggespült, wie wir beruhigt feststellten - fing es an zu regnen. Wir beeilten uns, die Zelte abzubauen und mach
 en Feuer. Heute gab es Schokoporridge und ich aß auch wieder mit (ich faste später weiter). Nach dem Spülen wurde der Metall-Spülschwamm zum Trocknen ans Feuer gelegt und gleichzeitig damit begonnen ein ordentliches Bonfire(Sternchen7) zu machen. Wie es kommen musste, bemerkten wir später, dass der Schwamm weg war. Doch als wir ihn sahen und wieder aus dem Feuer holen wollten, zerfiel er in tausend Staubkörnchen und ward nie mehr gesehen. 
@@ -167,7 +173,7 @@ Auch nach dem Essen kamen wir extrem (Sternchen hoch 7) ???? schnell vorwärts. 
 Wulf
 
 
-### 42. Fahrtentag, Dienstag der 21. September 2004
+## 42. Fahrtentag, Dienstag der 21. September 2004
 
 Die Nacht war etwas nass gewesen, da das Dach undicht war. 
 Wir machten Feuer, aßen und pumpten Wasser. Spüli wollte nicht mehr viel wandern und lief deshalb als Abkürzung den Fife Point Trail. Wir andern wollten noch zum nördlichsten Punkt der Islands, einer schmalen, bei Ebbe weit in den Pazifik ragenden Landzunge, dem Rose Spit. Wir beeilten uns, weil es schon spät war. Ein paar Kilometer vor dem Kap kürzten wir durch die Dünen nach Westen ab und überquerten die Halbinsel, die hier bereits nur noch etwa 200 Meter breit war. Nach einem Müsliriegel liefen wir zum Rose Spit. Wir schauten uns dort ein paar krasse Wellen ab, die von Osten und Westen aufeinander prallten. Alles war voller Robben.
@@ -176,7 +182,7 @@ Als wir wieder bei den Rucksäcken waren, aßen wir. Wir wanderten dann südwest
 Hörbe
 
 
-### 43. Fahrtentag, Mittwoch der 22. September 2004
+## 43. Fahrtentag, Mittwoch der 22. September 2004
 
 So sieht´s also hier aus. Wir haben gestern Abend das Lager unter riesigen Bäumen im stockdunklen Urwald wahrscheinlich das letzte Mal in der Wildnis Kanadas aufgebaut. Ziemlich lange haben wir geschlafen. Ich gehe angeln, während die anderen die Zelte abbauen und Porridge kochen. Zwar verliere ich einen Blinker, fange aber einen 45-Zentimeter-Lachs. 
 Hörbe, Mischa, Wulf und ich erklimmen dann noch den 109 Meter hohen Tow Hill, ein den ??????-Indianern heiliger „Berg“. Anschließend gehen wir zum „Blow Hole“, wo das Wasser durch die Wellen in eine Unterspülung in den Brandungsfelsen gedrückt wird und anschließend, durch ein Loch in der Decke dieser Aushöhlung gepresst, meterhoch aufspritzt.
@@ -187,7 +193,7 @@ In der Annahmen, dass mal wieder „Fall 1“ eingetreten ist, liegen wir zu dri
 Richie
 
 
-### 44. Fahrtentag, Donnerstag der 23. September 2004
+## 44. Fahrtentag, Donnerstag der 23. September 2004
 
 Wir schliefen aus und gingen dann rein. Dort trafen wir dann Mischa und Spüli. Sie waren am Vortag noch in der Bücherei gewesen und hatten dort auch in der Nähe übernachtet.
 Wir informierten uns im Visitor Information Centre. Auf der Terrasse kochten wir Porridge. Ich ging mit Wulf und Richie noch Zucker holen, um den Porridge-Geschmack zu optimieren. Auf dem Weg dorthin kauften wir noch eine Pappröhre für Poster. i
@@ -196,7 +202,7 @@ Wir informierten uns wieder etwas im Information Centre. Später kochten wir dan
 Hörbe
 
 
-### 45. Fahrtentag, Freitag der 24. September 2004
+## 45. Fahrtentag, Freitag der 24. September 2004
 
 von Hörbe, Mischa und Spüli
 
@@ -208,7 +214,7 @@ Am Abend wurde wieder „Raising Helen“ gezeigt, weshalb wir früh schlafen ge
 Mischa
 
 
-### 45. Fahrtentag, Freitag der 24. September 2004
+## 45. Fahrtentag, Freitag der 24. September 2004
 
 von Richie und Wulf
 
@@ -218,7 +224,7 @@ Vince, der Cop, bringt uns die 750 Kilometer nach Prince George, wo wir schnell 
 Richie
 
 
-### 46. Fahrtentag, Samstag der 25. September 2004
+## 46. Fahrtentag, Samstag der 25. September 2004
 
 von Spüli
 
@@ -230,7 +236,7 @@ In dem kleinen Haus schlief ich dann auf der Couch, die etwas zu kurz für meine
 Spüli
 
 
-### 46. Fahrtentag, Samstag der 25. September 2004
+## 46. Fahrtentag, Samstag der 25. September 2004
 
 von Hörbe und Mischa
 
@@ -241,7 +247,7 @@ Nachdem wir uns mit Nudeln und Tomatensoße voll gefressen hatten, gingen wir sc
 Hörbe
 
 
-### 46. Fahrtentag, Samstag der 25. September 2004
+## 46. Fahrtentag, Samstag der 25. September 2004
 
 von Richie und Wulf
 
@@ -252,7 +258,7 @@ Entgegen dessen Voraussage, standen wir auch nicht noch Tage lang an der Stelle,
 Wulf
 
 
-### 47. Fahrtentag, Sonntag der 26. September 2004
+## 47. Fahrtentag, Sonntag der 26. September 2004
 
 von Spüli
 
@@ -265,7 +271,7 @@ Spüli
 
 
 
-### 47. Fahrtentag, Sonntag der 26. September 2004
+## 47. Fahrtentag, Sonntag der 26. September 2004
 
 von Hörbe und Mischa
 
@@ -278,7 +284,7 @@ Mischa
 
 
 
-### 47. Fahrtentag, Sonntag der 26. September 2004
+## 47. Fahrtentag, Sonntag der 26. September 2004
 
 von Richie und Wulf
 
@@ -291,7 +297,7 @@ Bis etwa Mitternacht unterhalten wir uns ununterbrochen mit Peter und seinem Bru
 Richie
 
 
-### 48. Fahrtentag, Montag der 27. September 2004
+## 48. Fahrtentag, Montag der 27. September 2004
 
 von Spüli
 
@@ -300,7 +306,7 @@ Es dauerte etwas länger, bis ich mich verabschiedet hatte, so dass ich ungefäh
 Spüli
 
 
-### 48. Fahrtentag, Montag der 27. September 2004
+## 48. Fahrtentag, Montag der 27. September 2004
 
 von Hörbe und Mischa 
 
@@ -312,7 +318,7 @@ Zum Schlafen haben wir uns neben eine Baustelle ans Wasser gelegt.
 Mischa
 
 
-### 48. Fahrtentag, Montag der 27. September 2004
+## 48. Fahrtentag, Montag der 27. September 2004
 
 von Richie und Wulf
 
@@ -324,7 +330,7 @@ Wieder zurück, schauen wir uns „Touching the Void“ an, helfen Risto (9), se
 Wulf
 
 
-### 49. Fahrtentag, Dienstag der 28. September 2004
+## 49. Fahrtentag, Dienstag der 28. September 2004
 
 von Richie und Wulf
 
@@ -336,7 +342,7 @@ Wir müssen zum Visitor Centre noch etwas laufen (circa vier Kilometer). Kurz na
 Richie
 
 
-### 49. Fahrtentag, Dienstag der 28. September 2004
+## 49. Fahrtentag, Dienstag der 28. September 2004
 
 von Hörbe, Mischa und Spüli
 
@@ -347,7 +353,7 @@ Peter hatte ein winziges Büro im Keller der Tiefgarage eines Hochhauses, für d
 Hörbe
 
 
-### 50. Fahrtentag, Mittwoch der 29. September 2004
+## 50. Fahrtentag, Mittwoch der 29. September 2004
 
 Gegen halb acht hatten wir gepackt und Peters Bunker-Büro verlassen. Während Hörbe, Spüli und Wulf nach dem Frühstück direkt zu Flughafen fuhren, sind Richie und ich noch mit dem Bus zur UBC, der University of British Columbia, um uns das Uni-Gelände mit angrenzendem Strand mal anzuschauen. 
 Um 11: 15 Uhr kamen wir dann auch beim Flughafen an, wo die anderen sich gerade eine Nudelmahlzeit gekocht hatten. Um 12: 30 Uhr konnten wir nach langem Anstehen mit deutschen Touries einchecken und zwei Stunden später in die Maschine steigen. Morgen, am 30. September und 51. Fahrtentag, werden uns Richies Eltern mit Hannah und Helen in Düsseldorf abholen.

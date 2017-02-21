@@ -1,5 +1,6 @@
-titel: 'Skitour Mont Blanc'
-zusammenfassung: 'Im dritten Anlauf ging es im April ohne große Schwierigkeiten mit Zelt und Ski auf den Mont Blanc.'
-autor: 'Friedjoff'
-datum: '2011-04-23'
-teaser: 'fotos/27.jpg'
++++
+title = "Skitour Mont Blanc"
+description = "Im dritten Anlauf ging es im April ohne große Schwierigkeiten mit Zelt und Ski auf den Mont Blanc."
+author = "Friedjoff"
+date = "2011-04-23"
++++

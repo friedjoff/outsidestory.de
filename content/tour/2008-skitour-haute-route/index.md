@@ -1,9 +1,9 @@
----
-titel: 'Skitour Haute Route'
-zusammenfassung: 'Auf der Königin der Skitouren von Chamonix nach Zermatt mit Überschreitung des Pigne d´Arolla (3790m). Von den Ausläufern des Mont Blanc führt die Haute Route über die höchsten Pässe und Gletscher durch die Waliser Alpen bis nach Zermatt am Fuße des Matterhorns. Im Februar 2008 ziehen wir hier acht Tage lang unsere Spur durchs Hochgebirge.'
-autor: 'Richard'
-datum: '2008-04-28'
----
++++
+title = "Skitour Haute Route"
+description = "Auf der Königin der Skitouren von Chamonix nach Zermatt mit Überschreitung des Pigne d´Arolla (3790m). Von den Ausläufern des Mont Blanc führt die Haute Route über die höchsten Pässe und Gletscher durch die Waliser Alpen bis nach Zermatt am Fuße des Matterhorns. Im Februar 2008 ziehen wir hier acht Tage lang unsere Spur durchs Hochgebirge."
+author = "Richard"
+date = "2008-04-28"
++++
 
 Nachdem einige von uns sich im vorigen Jahr unter widrigen Umständen mit zu viel Ausrüstung und Krankheiten im Gepäck an der Haute Route bei schlechtem Wetter die Zähne ausgebissen hatten, sollte dieses Mal alles anders werden. Vom Anfang der langen Vorbereitung an, lief dabei die Debatte, ob wir es vollkommen autark mit Zelt und Rucksäcken jenseits der 25kg versuchen sollten oder die Möglichkeiten ausschöpfen und die Winterräume der Hütten nutzen. Widerstrebend entschlossen wir uns hierfür erst kurz bevor es losging.
 

@@ -1,3 +1,9 @@
++++
+date = "2006-02-02"
+title = "Skitour Berner Oberland"
+description = "Nach drei Tagestouren auf umliegende Berge ging es in vier Tage mit Zelt und Rucksack vom Rosenlaui über die Wart zum Faulhorn und zurück."
++++
+
 In den Winterferien verbrachten wir neun Tage mit Tourenskiern im Berner Oberland. Für drei Tage schlugen wir ein Basislager in einem alten Heuschober auf und unternahmen Tagestouren auf die umliegenden Berge. Dann ging es weiter mit Rucksäcken und Zelten vom Rosenlaui über die Wart zum Faulhorn und wieder zurück.
 
 ### Prolog
