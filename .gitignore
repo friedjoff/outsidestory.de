@@ -1,6 +1,5 @@
 .DS_Store
-*.avi
-*.mpg
+*.mp4
 *.jpg
 
 node_modules

@@ -2,8 +2,11 @@
 {{ $photos := index .Site.Data (replace (delimit (slice "photos" $path) "_") "-" "_") }}
 
 {{ if $photos }}
+
+<h2 id="fotos">Fotos</h2>
+
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="photos" id="fotos">
+<div class="photos">
 
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 

@@ -1,0 +1,9 @@
+{{ if .Params.video }}
+
+<h2 id="film">Film</h2>
+
+<video poster="{{ .Permalink }}poster.jpg" controls>
+  <source src="{{ .Permalink }}video.mp4" type="video/mp4">
+</video>
+
+{{ end }}

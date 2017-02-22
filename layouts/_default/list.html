@@ -20,6 +20,13 @@
       <div class="list-link-subtitle">{{ len $photos }} Stück</div>
     </a>
     {{ end }}
+
+    {{ if .Params.video }}
+    <a class="list-link-item video" href="{{ $path }}/#film">
+      <div class="list-link-title">Film</div>
+      <div class="list-link-subtitle">{{ .Params.video }} Minuten</div>
+    </a>
+    {{ end }}
   </div>
 </article>
 {{ end }}

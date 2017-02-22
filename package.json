@@ -16,6 +16,7 @@
     "mkdirp": "^0.5.1",
     "normalize.css": "^5.0.0",
     "photoswipe": "^4.1.1",
+    "plyr": "^2.0.11",
     "sharp": "^0.17.2",
     "url-loader": "^0.5.7",
     "webpack": "^2.2.1"
