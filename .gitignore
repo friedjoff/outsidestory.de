@@ -5,3 +5,6 @@
 node_modules
 /data/photos_*.json
 /public
+
+/static/script.js
+/static/style.css
