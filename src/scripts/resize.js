@@ -23,6 +23,10 @@ function resize (path) {
             sharp(contentPhotoPath)
               .resize(1600, 1200)
               .max()
+              .jpeg({
+                progressive: true,
+                quality: 80
+              })
               .toFile('static'+photoPath, function (err, info) {
                 if (err) reject(err)
                 count++
