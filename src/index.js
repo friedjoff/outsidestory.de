@@ -18,6 +18,8 @@ if (typeof outsidestoryPhotos === 'object') {
     modal: false,
     closeOnScroll: false,
     history: false,
+    pinchToClose: false,
+    closeOnVerticalDrag: false,
     barsSize: { top:0, bottom:'auto' },
     // UI options
     closeEl: false,
