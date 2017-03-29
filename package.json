@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack -p",
+    "deploy": "hugo && cd public && now && now alias",
     "resize": "node ./src/scripts/resize.js"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "glob": "^7.1.1",
     "mkdirp": "^0.5.1",
     "normalize.css": "^5.0.0",
+    "now": "^4.5.8",
     "photoswipe": "^4.1.1",
     "plyr": "^2.0.11",
     "sharp": "^0.17.2",
