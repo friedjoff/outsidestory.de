@@ -1,18 +1,10 @@
-## Links
 
-* https://github.com/GjjvdBurg/HugoPhotoSwipe
-* https://gohugo.io/templates/functions/#files (see imageConfig)
-* https://github.com/spf13/hugo/issues/2806
-* https://www.typewolf.com/blog/google-fonts-combinations
+## ToDo
 
-### Video Libraries
-
-* http://videojs.com/
-* https://plyr.io/
-
-
-## TODO
-
-* Support videos.
-* Add video files.
+* Make photos compatible with mobile devices.
+* Add missing video files.
 * Add missing touren.
+
+### Maybe
+
+* Print CSS: https://github.com/BafS/Gutenberg
