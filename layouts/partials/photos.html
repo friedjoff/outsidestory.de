@@ -1,23 +1,40 @@
-{{ $path := trim .RelPermalink "/" }}
-{{ $photos := index .Site.Data (replace (delimit (slice "photos" $path) "_") "-" "_") }}
 
-{{ if $photos }}
+{{ if .Params.photos }}
 
 <h2 id="fotos">Fotos</h2>
 
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="photos">
+{{ $flickr := print "https://api.flickr.com/services/rest/?format=json&nojsoncallback=1&api_key=" (getenv "FLICKR_API_KEY") }}
+{{ $result := getJSON $flickr "&method=flickr.photosets.getPhotos&photoset_id=" .Params.photos }}
 
+<div class="photos" itemscope itemtype="http://schema.org/ImageGallery">
+{{ range $result.photoset.photo }}
+  {{ $photo := getJSON $flickr "&method=flickr.photos.getSizes&photo_id=" .id }}
+  {{ $title := .title }}
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    {{ range where $photo.sizes.size "label" "Large" }}
+    <a href="{{ .source }}" itemprop="contentUrl" data-size="{{ .width }}x{{ .height }}">
+      {{ range where $photo.sizes.size "label" "Large Square" }}
+      <img src="{{ .source }}" itemprop="thumbnail" alt="{{ $title }}" />
+      {{ end }}
+    </a>
+    {{ end }}
+    <!-- <figcaption itemprop="caption description">{{ $title }}</figcaption> -->
+  </figure>
+{{ end }}
+</div>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe. 
+    <!-- Background of PhotoSwipe.
          It's a separate element as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
 
     <!-- Slides wrapper with overflow:hidden. -->
     <div class="pswp__scroll-wrap">
 
-        <!-- Container that holds slides. 
+        <!-- Container that holds slides.
             PhotoSwipe keeps only 3 of them in the DOM to save memory.
             Don't modify these 3 pswp__item elements, data is added later on. -->
         <div class="pswp__container">
@@ -55,7 +72,7 @@
             </div>
 
             <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
+                <div class="pswp__share-tooltip"></div>
             </div>
 
             <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
@@ -73,25 +90,5 @@
     </div>
 
 </div>
-
-</div>
-
-<script>
-var outsidestoryPhotos
-(function() {
-  var data = JSON.parse({{ $photos | jsonify }})
-  outsidestoryPhotos = Object.keys(data)
-    .sort(function (a, b) {
-      return parseInt(a) - parseInt(b)
-    })
-    .map(function(photo) {
-      return {
-        src: 'photos/' + photo,
-        w: data[photo][0],
-        h: data[photo][1]
-      }
-    })
-})()
-</script>
 
 {{ end }}

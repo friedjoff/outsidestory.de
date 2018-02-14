@@ -3,7 +3,7 @@
 {{ $path := trim .RelPermalink "/" }}
 {{ $photos := index .Site.Data (replace (delimit (slice "photos" $path) "_") "-" "_") }}
 <article>
-  <img src="{{ $path }}/teaser.jpg" class="teaser" />
+  {{ partial "teaser.html" . }}
   <h1><a href="{{ $path }}">{{ .LinkTitle }}</a></h1>
   <p class="tagline">{{ .Description }}</p>
   <div class="list-links">

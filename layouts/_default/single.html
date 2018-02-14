@@ -1,10 +1,11 @@
 {{ partial "header.html" . }}
 <article>
-  <img src="{{ .Permalink }}teaser.jpg" class="teaser" />
+  {{ partial "teaser.html" . }}
   <h1>{{ .Title }}</h1>
-  <p class="tagline"><strong>{{ .Description }}</strong></p>
+  <p class="tagline">
+    <strong>{{ .Description }}</strong>
+  </p>
   <section id="bericht">{{ .Content }}</section>
-  {{ partial "photos.html" . }}
-  {{ partial "video.html" . }}
+  {{ partial "photos.html" . }} {{ partial "video.html" . }}
 </article>
 {{ partial "footer.html" . }}
