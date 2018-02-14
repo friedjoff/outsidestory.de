@@ -1,26 +1,17 @@
 {
   "name": "outsidestory.de",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": {},
-  "license": "MIT",
+  "license": "UNLICENSED",
   "scripts": {
-    "build": "webpack -p",
-    "deploy": "hugo && cd public && now && now alias",
-    "resize": "node ./src/scripts/resize.js"
+    "build": "parcel build src/index.js --public-url ./ --out-dir public",
+    "watch": "parcel watch src/index.js --public-url ./ --out-dir static",
+    "clean": "git clean -f static/"
   },
   "dependencies": {
-    "css-loader": "^0.26.1",
-    "extract-text-webpack-plugin": "^2.0.0-rc.3",
-    "file-loader": "^0.10.0",
-    "glob": "^7.1.1",
-    "mkdirp": "^0.5.1",
-    "normalize.css": "^5.0.0",
-    "now": "^4.5.8",
-    "photoswipe": "^4.1.1",
-    "plyr": "^2.0.11",
-    "sharp": "^0.17.2",
-    "url-loader": "^0.5.7",
-    "webpack": "^2.2.1"
+    "normalize.css": "^8.0.0",
+    "photoswipe": "^4.1.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.5.1"
   }
 }

@@ -1,19 +1,15 @@
-
-
 @font-face {
   font-family: 'Cormorant';
   font-style: normal;
   font-weight: 400;
-  src: local('Cormorant'),
-       url('/fonts/Cormorant-Bold.woff') format('woff');
+  src: local('Cormorant'), url('fonts/Cormorant-Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Proza Libre';
   font-style: normal;
   font-weight: 400;
-  src: local('Proza Libre'),
-       url('/fonts/ProzaLibre-Regular.woff') format('woff');
+  src: local('Proza Libre'), url('fonts/ProzaLibre-Regular.woff') format('woff');
 }
 
 body {
@@ -21,18 +17,22 @@ body {
   line-height: 1.8em;
   color: #333;
   font-family: 'Proza Libre';
-  background-color: #EEE;
+  background-color: #eee;
 }
 
 a {
-  color: #D00;
+  color: #d00;
   text-decoration: none;
 }
 
 article {
-  background: #FFF;
+  background: #fff;
   max-width: 800px;
   margin: 40px auto;
+}
+
+figure {
+  margin: 0;
 }
 
 header,
@@ -47,11 +47,14 @@ h1,
 }
 
 .logo,
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Cormorant';
 }
 
-h1 {    
+h1 {
   font-size: 3em;
   line-height: 1em;
 }
@@ -62,7 +65,7 @@ h2 {
 }
 
 svg {
-  fill: #D00;
+  fill: #d00;
   width: 100px;
   display: block;
   margin: 0 auto;
@@ -70,7 +73,10 @@ svg {
 
 .logo,
 .tagline,
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-align: center;
 }
 
@@ -94,16 +100,16 @@ video,
   margin: 20px;
 }
 .list-link-item:hover {
-  color: #D00;
+  color: #d00;
 }
 .list-link-item.read {
-  background-image: url('/images/read.svg');
+  background-image: url('images/read.svg');
 }
 .list-link-item.photo {
-  background-image: url('/images/photo.svg');
+  background-image: url('images/photo.svg');
 }
 .list-link-item.video {
-  background-image: url('/images/video.svg');
+  background-image: url('images/video.svg');
 }
 .list-link-title {
   font-weight: bold;
@@ -114,15 +120,16 @@ video,
 }
 
 .photos {
-  background-color: black;
-  position: relative;
-  height: 600px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-gap: 40px;
+  margin: 0 0 40px 40px;
 }
 .pswp__ui--fit .pswp__top-bar {
   background-color: transparent;
 }
 .pswp__counter,
 .pswp__button--fs {
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, 0.3);
   margin: 6px;
 }
