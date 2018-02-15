@@ -1,5 +1,5 @@
 import 'normalize.css'
-import './style.css'
+import './style.scss'
 
 import Gallery from './gallery'
 
