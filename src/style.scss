@@ -12,6 +12,8 @@
   src: local('Proza Libre'), url('fonts/ProzaLibre-Regular.woff') format('woff');
 }
 
+$highlight: #c00;
+
 body {
   font-size: 1.2em;
   line-height: 1.8em;
@@ -21,18 +23,8 @@ body {
 }
 
 a {
-  color: #d00;
+  color: $highlight;
   text-decoration: none;
-}
-
-article {
-  background: #fff;
-  max-width: 800px;
-  margin: 40px auto;
-}
-
-figure {
-  margin: 0;
 }
 
 header,
@@ -64,20 +56,17 @@ h2 {
   line-height: 1em;
 }
 
-svg {
-  fill: #d00;
-  width: 100px;
-  display: block;
-  margin: 0 auto;
-}
-
-.logo,
-.tagline,
+header,
 h1,
 h2,
 h3,
-h4 {
+h4,
+.tagline {
   text-align: center;
+}
+
+svg {
+  fill: $highlight;
 }
 
 .logo {
@@ -90,35 +79,34 @@ video,
   width: 100%;
 }
 
-.list-links {
-  text-align: center;
-}
-.list-link-item {
-  background: transparent 10px 5px no-repeat;
-  display: inline-block;
-  padding: 5px 15px 15px 65px;
-  margin: 20px;
-}
-.list-link-item:hover {
-  color: #d00;
-}
-.list-link-item.read {
-  background-image: url('images/read.svg');
-}
-.list-link-item.photo {
-  background-image: url('images/photo.svg');
-}
-.list-link-item.video {
-  background-image: url('images/video.svg');
-}
-.list-link-title {
-  font-weight: bold;
-}
-.list-link-subtitle {
-  font-size: 0.8em;
-  line-height: 0.6em;
+article {
+  background: #fff;
+  max-width: 800px;
+  margin: 40px auto;
+  > nav {
+    display: flex;
+    justify-content: space-evenly;
+    > div {
+      text-align: center;
+      > a {
+        > svg {
+          height: 80px;
+          width: 80px;
+        }
+      }
+      > p {
+        margin-top: -10px;
+      }
+    }
+  }
 }
 
+/**********************/
+/*       PHOTOS       */
+/**********************/
+figure {
+  margin: 0;
+}
 .photos {
   display: grid;
   grid-template-columns: 150px 150px 150px 150px;

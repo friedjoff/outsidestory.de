@@ -1,33 +1,46 @@
 {{ partial "header.html" . }}
 {{ range .Data.Pages }}
-{{ $path := trim .RelPermalink "/" }}
-{{ $photos := index .Site.Data (replace (delimit (slice "photos" $path) "_") "-" "_") }}
 <article>
   {{ partial "teaser.html" . }}
-  <h1><a href="{{ $path }}">{{ .LinkTitle }}</a></h1>
+  <h1>
+    <a href="{{ .RelPermalink  }}">{{ .LinkTitle }}</a>
+  </h1>
   <p class="tagline">{{ .Description }}</p>
-  <div class="list-links">
+  <nav>
     {{ if .Content }}
-    <a class="list-link-item read" href="{{ $path }}/#bericht">
-      <div class="list-link-title">Bericht</div>
-      <div class="list-link-subtitle">{{ .ReadingTime }} Minuten</div>
-    </a>
+    <div>
+      <a href="{{ .RelPermalink }}#bericht">
+        <svg>
+          <use xlink:href="sprite.svg#read"></use>
+        </svg>
+      </a>
+      <p>{{ .ReadingTime }} Minuten</p>
+    </div>
     {{ end }}
-
-    {{ if $photos }}
-    <a class="list-link-item photo" href="{{ $path }}/#fotos">
-      <div class="list-link-title">Fotos</div>
-      <div class="list-link-subtitle">{{ len $photos }} Stück</div>
-    </a>
+    {{ if .Params.photos }}
+    {{ $flickr := print "https://api.flickr.com/services/rest/?format=json&nojsoncallback=1&api_key=" (getenv "FLICKR_API_KEY") }}
+    {{ $result := getJSON $flickr "&method=flickr.photosets.getPhotos&photoset_id=" .Params.photos }}
+    <div>
+      <a href="{{ .RelPermalink }}#fotos">
+        <svg>
+          <use xlink:href="sprite.svg#photo"></use>
+        </svg>
+      </a>
+      <p>{{ len $result.photoset.photo }} Fotos</p>
+    </div>
     {{ end }}
-
     {{ if .Params.video }}
-    <a class="list-link-item video" href="{{ $path }}/#film">
-      <div class="list-link-title">Film</div>
-      <div class="list-link-subtitle">{{ .Params.video }} Minuten</div>
-    </a>
+    {{ $video := getJSON "https://api.vimeo.com/videos/" .Params.video "?access_token=" (getenv "VIMEO_TOKEN") }}
+    <div>
+      <a href="{{ .RelPermalink }}/#film">
+        <svg>
+          <use xlink:href="sprite.svg#video"></use>
+        </svg>
+      </a>
+      <p>{{ math.Round (div $video.duration 60) }} Minuten</p>
+    </div>
     {{ end }}
-  </div>
+  </nav>
 </article>
 {{ end }}
 {{ partial "footer.html" . }}
