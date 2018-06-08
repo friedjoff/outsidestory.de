@@ -2,6 +2,8 @@
 date = "2006-02-02"
 title = "Skitour Berner Oberland"
 description = "Nach drei Tagestouren auf umliegende Berge ging es in vier Tage mit Zelt und Rucksack vom Rosenlaui über die Wart zum Faulhorn und zurück."
+photos = "72157690447926002"
+video = "255634486"
 +++
 
 In den Winterferien verbrachten wir neun Tage mit Tourenskiern im Berner Oberland. Für drei Tage schlugen wir ein Basislager in einem alten Heuschober auf und unternahmen Tagestouren auf die umliegenden Berge. Dann ging es weiter mit Rucksäcken und Zelten vom Rosenlaui über die Wart zum Faulhorn und wieder zurück.
@@ -48,30 +50,30 @@ Heute ist selbst im Tal bestes Wetter. Als die ersten Leute die Spur vom First h
 
 ### Aufstieg
 
->Dein Atem friert.
-Im fahlen Grau liegt noch das stille Tal,
-doch auf den höchsten Spitzen
-tastet sich voran ein erster Strahl.
+> Dein Atem friert.
+> Im fahlen Grau liegt noch das stille Tal,
+> doch auf den höchsten Spitzen
+> tastet sich voran ein erster Strahl.
 
->Im steilen Hang,
-bergan durch lichten Föhrenwald,
-legst du gekonnt die Spur.
-Sonne grüßt uns bald.
+> Im steilen Hang,
+> bergan durch lichten Föhrenwald,
+> legst du gekonnt die Spur.
+> Sonne grüßt uns bald.
 
->Der Gipfel naht,
-von wachsenden Wolken umwoben
-sind seine schwarzen Flanken,
-schau, gleich sind wir oben.
+> Der Gipfel naht,
+> von wachsenden Wolken umwoben
+> sind seine schwarzen Flanken,
+> schau, gleich sind wir oben.
 
->Die Felle ab.
-Wir sind am Ziel, du schreist, du lachst
-und bist verzaubert
-von der weißen Pracht.
+> Die Felle ab.
+> Wir sind am Ziel, du schreist, du lachst
+> und bist verzaubert
+> von der weißen Pracht.
 
->Schwünge, zögernd erst und tastend,
-durchschneiden bald den reinen Schnee.
-Kühner werden dann die Kurven,
-im Tale drunten gleißt der See.
+> Schwünge, zögernd erst und tastend,
+> durchschneiden bald den reinen Schnee.
+> Kühner werden dann die Kurven,
+> im Tale drunten gleißt der See.
 
 Richard
 

@@ -3,6 +3,7 @@ author = "Richard"
 date = "2006-12-31"
 title = "Skitour und Eisklettern im Engadin"
 description = "Wie schon im letzten Jahr, ging es zwischen Weihnachten und Neujahr in die Schweiz, diesmal ins Unterengadin. Obwohl wir nur eine Woche und wenig Schnee hatten, sind ein paar tolle Touren zustande gekommen …"
+photos = "72157693447799005"
 +++
 
 ### Skitour im Val S´charl

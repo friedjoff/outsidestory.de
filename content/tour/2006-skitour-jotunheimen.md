@@ -3,6 +3,7 @@ title = "Skitour Jotunheimen"
 description = "Neun Tage lang durchwanderten wir in den Wintersemesterferien 2006 mit Tourenskiern das höchste Gebirge Skandinaviens. Von kalten Nächten und traumhaften Abfahrten..."
 author = "Mathis"
 date = "2006-04-28"
+photos = "72157665773577348"
 +++
 
 Obwohl schon sehr lange fest stand, dass es diese Tour geben würde, blieben ihr Ziel und ihre "Mannschaft" lange im Ungewissen. Sarek Nationalpark in Lappland? Zu kalt Ende Februar! Alpen, z.B. Silvretta? Hatten wir schon. Wandern in Deutschland? Langweilig! Zuhause bleiben und an Uni-Seminaren teilnehmen, Füße kurieren und dergleichen? Unmöglich!
