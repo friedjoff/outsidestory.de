@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: friedjoff/outsidestory.de
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "tour"
+    label: "Tour"
+    folder: "content/tour"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Flickr Photos", name: "photos", widget: "string"}
+      - {label: "Vimeo Video", name: "video", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
