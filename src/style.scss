@@ -1,24 +1,24 @@
 @font-face {
-  font-family: 'Cormorant';
+  font-family: "Cormorant";
   font-style: normal;
   font-weight: 400;
-  src: local('Cormorant'), url('fonts/Cormorant-Bold.woff') format('woff');
+  src: local("Cormorant"), url("fonts/Cormorant-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Proza Libre';
+  font-family: "Proza Libre";
   font-style: normal;
   font-weight: 400;
-  src: local('Proza Libre'), url('fonts/ProzaLibre-Regular.woff') format('woff');
+  src: local("Proza Libre"), url("fonts/ProzaLibre-Regular.woff") format("woff");
 }
 
 $highlight: #c00;
 
 body {
-  font-size: 1.2em;
-  line-height: 1.8em;
+  font-size: 16px;
+  line-height: 24px;
   color: #333;
-  font-family: 'Proza Libre';
+  font-family: "Proza Libre";
   background-color: #eee;
 }
 
@@ -43,7 +43,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Cormorant';
+  font-family: "Cormorant";
 }
 
 h1 {
@@ -104,14 +104,16 @@ article {
 /**********************/
 /*       PHOTOS       */
 /**********************/
-figure {
-  margin: 0;
-}
 .photos {
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px;
   grid-gap: 40px;
-  margin: 0 0 40px 40px;
+  padding: 0 40px 40px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  figure {
+    margin: 0;
+    height: 150px;
+    width: 150px;
+  }
 }
 .pswp__ui--fit .pswp__top-bar {
   background-color: transparent;
