@@ -4,9 +4,9 @@
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "svg-sprite --symbol --symbol-dest=public --symbol-sprite=sprite.svg src/images/*.svg",
-    "build": "parcel build src/index.js --public-url ./ --out-dir public",
+    "build": "parcel build src/index.js --public-url ./ --out-dir public && hugo",
     "prewatch": "svg-sprite --symbol --symbol-dest=static --symbol-sprite=sprite.svg src/images/*.svg",
-    "watch": "parcel watch src/index.js --public-url ./ --out-dir static",
+    "watch": "parcel watch src/index.js --public-url ./ --out-dir static | hugo server",
     "clean": "git clean -f static/"
   },
   "dependencies": {
@@ -14,6 +14,7 @@
     "photoswipe": "^4.1.2"
   },
   "devDependencies": {
+    "hugo-bin": "^0.28.0",
     "node-sass": "^4.9.0",
     "parcel-bundler": "^1.8.1",
     "svg-sprite": "^1.4.0"
