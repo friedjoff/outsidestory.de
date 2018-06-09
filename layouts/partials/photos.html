@@ -11,7 +11,7 @@
   {{ $photo := getJSON $flickr "&method=flickr.photos.getSizes&photo_id=" .id }}
   {{ $title := .title }}
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    {{ range where $photo.sizes.size "label" "Large" }}
+    {{ range last 1 (where $photo.sizes.size "label" "in" (slice "Large" "Large 1600")) }}
     <a href="{{ .source }}" itemprop="contentUrl" data-size="{{ .width }}x{{ .height }}">
       {{ range where $photo.sizes.size "label" "Large Square" }}
       <img src="{{ .source }}" itemprop="thumbnail" alt="{{ $title }}" />
