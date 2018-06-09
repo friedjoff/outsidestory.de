@@ -2,7 +2,7 @@
 title = "Skitour Urner Alpen"
 description = "Die anspruchsvolle Durchquerung der abgelegenen Urner Alpen im Hochwinter – Eindrücke von einer abwechslungsreichen Skitour in einsamem Gelände."
 date = "2012-02-27"
-autor = "Richard"
+author = "Richard"
 photos = "72157697171945534"
 +++
 
