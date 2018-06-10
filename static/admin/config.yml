@@ -11,9 +11,9 @@ collections:
     slug: "{{year}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "autor", widget: "string"}
+      - {label: "Author", name: "autor", required: false, widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
-      - {label: "Flickr Photos", name: "photos", widget: "string"}
-      - {label: "Vimeo Video", name: "video", widget: "string"}
+      - {label: "Flickr Photos", name: "photos", required: false, widget: "string"}
+      - {label: "Vimeo Video", name: "video", required: false, widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", required: false, widget: "markdown"}
