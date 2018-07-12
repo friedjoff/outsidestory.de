@@ -1,10 +1,10 @@
-+++
-title = "Besteigung Ojos del Salado"
-description = "Besteigung des höchsten Vulkans der Erde ..."
-author = "Richard"
-date = "2009-04-26"
-video = "256638171"
-+++
+---
+title: Besteigung Ojos del Salado
+date: '2009-04-26'
+photos: '72157692618518622'
+video: '256638171'
+description: Besteigung des höchsten Vulkans der Erde ...
+---
 
 Buenos Aires, Córdoba und immer weiter geht es nach Westen; aus den Städten lockt es unsere kleine Schar in die Berge. In Catamarca dämmert der Morgen und vor uns erheben sich schroff die ersten Kämme der Zentralanden, bald erleuchten die ersten Sonnenstrahlen die kahlen Spitzen. Auf staubigen Straßen erreichen wir nach langer Busfahrt Fiambalá und ergänzen ein letztes Mal die Vorräte.
 Wir statten Señor Reynoso einen Besuch ab. Er kennt den Ojos del Salado wie kaum ein anderer und steht uns mit Rat und GPS-Daten zur Seite. Nun wissen wir, wo man Wasser findet und wie fahrlässig schlecht in unsrer vom deutschen Alpenverein herausgegebenen Karte die Routen und Gewässer verzeichnet sind. Das dargestellte Relief wird sich später zum Glück als präzise und zuverlässig erweisen.
