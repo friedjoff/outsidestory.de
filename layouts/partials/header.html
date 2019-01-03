@@ -16,6 +16,21 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}index.css"> {{ if .Site.Params.enableRSS }}
   <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }}
+  <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+  <script>
+    (function(f, a, t, h, o, m){
+      a[h]=a[h]||function(){
+        (a[h].q=a[h].q||[]).push(arguments)
+      };
+      o=f.createElement('script'),
+      m=f.getElementsByTagName('script')[0];
+      o.async=1; o.src=t; o.id='fathom-script';
+      m.parentNode.insertBefore(o,m)
+    })(document, window, '//fathom.redpoint.rocks/tracker.js', 'fathom');
+    fathom('set', 'siteId', 'DXUTM');
+    fathom('trackPageview');
+    </script>
+    <!-- / Fathom -->
 </head>
 
 <body>
