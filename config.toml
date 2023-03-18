@@ -1,9 +1,0 @@
-languageCode = "de-de"
-title = "Geschichten von draußen …"
-description = "Berichte von unseren Touren durch Wildnis, Schnee und Berge."
-baseurl = "/"
-cacheDir="./.cache"
-[permalinks]
-tour = "/:year-:title/"
-[taxonomies]
-category = "categories"

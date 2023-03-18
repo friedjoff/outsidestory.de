@@ -1,0 +1,48 @@
+---
+import { getCollection } from "astro:content";
+const allTours = await getCollection("tour", ({ data }) => {
+  return data.draft !== true;
+});
+---
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Outsidestory - Geschichten von draußen …</title>
+  </head>
+  <body class="bg-stone-100 text-stone-800">
+    <header class="container mx-auto text-center pt-4">
+      <svg class="fill-red-500 w-32 mx-auto" viewBox="0 0 35.2002 40.541"
+        ><path
+          d="M0.3374,24.8379c0.957-4.625,4.4863-8.3906,4.7851-13.0117c1.3379,2.4336,1.4961,4.1875,1.6465,6.7304  C11.021,13.3477,15.4311,6.375,14.4761,0c0,0,8.0625,2.5332,11.3222,14.8984c1.9278-1.7148,1.7461-5.246,0.793-7.332  c2.8613,2.086,19.289,20.6016-2.5801,32.9746c4.1113-8.0058,1.0606-18.8066-6.0781-23.7969  c0.4765,2.1446-0.1192,7.7461-3.2774,11.2618c0.7149-3.6348-1.0722-5.959-1.0722-5.959s-0.586,3.291-2.8614,6.6152  C8.646,31.6973,7.2085,34.9199,9.9096,40.541C1.3081,35.6953-0.9556,31.1074,0.3374,24.8379z"
+        ></path></svg
+      >
+      <h1 class="text-5xl my-2">Outsidestory</h1>
+      <p>Geschichten von draußen …</p>
+    </header>
+    <main class="container mx-auto space-y-8 my-8">
+      {
+        allTours
+          .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+          .map((tour) => (
+            <article class="bg-white rounded-xl p-6 shadow-xl shadow-stone-200 space-y-3">
+              <div class="flex justify-between">
+                <h1 class="text-2xl text-red-500">
+                  <a href={tour.slug}>{tour.data.title}</a>
+                </h1>
+                <span class="text-gray-500">
+                  {tour.data.date.toLocaleDateString("de", {
+                    month: "long",
+                    year: "numeric",
+                  })}
+                </span>
+              </div>
+              <p>{tour.data.description}</p>
+            </article>
+          ))
+      }
+    </main>
+  </body>
+</html>

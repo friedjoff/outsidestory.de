@@ -1,8 +1,0 @@
-{{ if .Params.photos }}
-  {{ $flickr := print "https://api.flickr.com/services/rest/?format=json&nojsoncallback=1&api_key=" (getenv "FLICKR_API_KEY") }}
-  {{ $result := getJSON $flickr "&method=flickr.photosets.getPhotos&photoset_id=" .Params.photos }}
-  {{ $primary := getJSON $flickr "&method=flickr.photos.getSizes&photo_id=" $result.photoset.primary }}
-  {{ range where $primary.sizes.size "label" "Medium 800" }}
-    <img src="{{ .source }}" class="teaser" />
-  {{ end }}
-{{ end }}
